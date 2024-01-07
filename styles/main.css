@@ -1,0 +1,139 @@
+:root {
+  --bg: #0f0f0f;
+  --bg-hover: #383838;
+  --white: #fff;
+  --light-dark: #323232;
+}
+
+.bg {
+  background-color: var(--bg);
+}
+
+.bg-hover {
+  background-color: var(--bg-hover);
+}
+
+.light-dark {
+  background-color: var(--light-dark);
+}
+
+.white {
+  color: var(--white);
+}
+
+.flex {
+  display: flex;
+}
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.jc-center {
+  justify-content: baseline;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.around {
+  justify-content: space-around;
+}
+
+.jc-start {
+  justify-content: start;
+}
+
+.jc-end {
+  justify-content: end;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.ai-start {
+  align-items: start;
+}
+
+.ai-end {
+  align-items: end;
+}
+
+.rounded-full {
+  border-radius: 50px;
+}
+
+.rounded-70 {
+  border-radius: 70px;
+}
+
+.rounded-10 {
+  border-radius: 10px;
+}
+
+.rounded-20 {
+  border-radius: 20px;
+}
+
+.input {
+  width: 478px;
+  height: 30px;
+  border: 0.1px solid var(--white);
+  padding: 20px;
+  font-size: 16px;
+  color: white;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.navbar .home {
+  width: 30px;
+  height: 30px;
+}
+.navbar .logo {
+  width: 150px;
+  height: 50px;
+}
+.navbar .search a {
+  width: 80px;
+  height: 30px;
+  border-radius: 50px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border: 0.1px solid var(--white);
+  padding: 20px 0;
+}
+.navbar .search a img {
+  width: 40px;
+  height: 20px;
+  margin-left: 17px;
+}
+.navbar .v-search a {
+  width: 30px;
+  height: 30px;
+  border: 0.1px solid var(--white);
+}
+.navbar .v-search a img {
+  width: 20px;
+  height: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}/*# sourceMappingURL=main.css.map */

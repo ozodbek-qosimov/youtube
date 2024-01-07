@@ -1,0 +1,96 @@
+:root{
+    --bg: #0f0f0f;
+    --bg-hover: #383838;
+    --white: #fff;
+    --light-dark: #323232;
+}
+
+// background
+.bg{
+    background-color: var(--bg);
+}
+.bg-hover{
+    background-color: var(--bg-hover);
+}
+.light-dark{
+    background-color: var(--light-dark);
+}
+
+// color
+.white{
+    color: var(--white);
+}
+
+// display
+.flex{
+    display: flex;
+}
+.none{
+    display: none;
+}
+.block{
+    display: block;
+}
+.inline{
+    display: inline;
+}
+.inline-block{
+    display: inline-block;
+}
+
+// justify
+    .jc-center{
+        justify-content: baseline;
+    }
+    .between{
+        justify-content: space-between;
+    }
+    .around{
+        justify-content: space-around;
+    }
+    .jc-start{
+        justify-content: start;
+    }
+    .jc-end{
+        justify-content: end;
+    }
+    
+
+// align-items
+.ai-center{
+    align-items: center;
+}
+.ai-start{
+    align-items: start;
+}
+.ai-end{
+    align-items: end;
+}
+
+// radius
+.rounded-full{
+    border-radius: 50px;
+}
+.rounded-70{
+    border-radius: 70px;
+}
+.rounded-10{
+    border-radius: 10px;
+}
+.rounded-20{
+    border-radius: 20px;
+}
+
+
+// input
+.input{
+    width: 478px;
+    height: 30px;
+    border: 0.1px solid var(--white);
+    padding: 20px;
+    font-size: 16px;
+    color: white;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
